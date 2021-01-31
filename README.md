@@ -1,2 +1,20 @@
 # msbt2json
-An npm library to convert MSBT filesto JSON file.
+`msbt2json` is an npm library to convert [MSBT](https://github.com/Kinnay/Nintendo-File-Formats/wiki/MSBT-File-Format) file to JSON file.
+
+## Installation
+``` sh
+npm install --save msbt2json
+```
+## Usage
+``` js
+const Msbt2Json = require('msbt2json');
+new Msbt2Json().convert('<MSBT file path>');
+// --> The file(s) extracted from the SARC file is output to the same directory as the SARC file.
+```
+
+Example:
+``` js
+const Msbt2Json = require('msbt2json');
+new Msbt2Json().convert('/home/foo/bar.msbt');
+// --> output "/home/foo/bar/baz.json"
+```

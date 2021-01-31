@@ -1,0 +1,28 @@
+{
+  "name": "msbt2json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "conv": "node src/conv.js",
+    "lint": "eslint src/index.js",
+    "format": "prettier --write src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FURI-J/msbt2json.git"
+  },
+  "author": "FURI-J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FURI-J/msbt2json/issues"
+  },
+  "homepage": "https://github.com/FURI-J/msbt2json#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "^2.2.1"
+  }
+}
