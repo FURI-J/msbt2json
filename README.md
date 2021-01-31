@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/msbt2json.svg)](https://badge.fury.io/js/msbt2json)
+
 # msbt2json
 `msbt2json` is an npm library to convert [MSBT](https://github.com/Kinnay/Nintendo-File-Formats/wiki/MSBT-File-Format) file to JSON file.
 
