@@ -7,6 +7,7 @@ class Msbt2Json {
   /**
    * convert MSBT file to json file.
    * @param {string} msbtFileName - The path of the file to convert.
+   * @return {string} The path of converted JSON file.
    */
   convert(msbtFileName) {
     const fs = require('fs');
@@ -63,6 +64,7 @@ class Msbt2Json {
         ext: '.json',
       });
       fs.writeFileSync(outPath, JSON.stringify(json, null, 2));
+      return outPath;
     }
   }
 
@@ -137,9 +139,10 @@ class Msbt2Json {
 /**
  * convert MSBT file to json file.
  * @param {string} msbtFileName - The path of the file to convert.
+ * @return {string} The path of converted JSON file.
  */
 function convert(msbtFileName) {
-  new Msbt2Json().convert(msbtFileName);
+  return new Msbt2Json().convert(msbtFileName);
 }
 
 module.exports.convert = convert;
