@@ -16,14 +16,14 @@ npm install --save msbt2json
 ```
 ## Usage
 ``` js
-const Msbt2Json = require('msbt2json');
-new Msbt2Json().convert('<MSBT file path>');
+const msbt2json = require('msbt2json');
+msbt2json.convert('<MSBT file path>');
 // --> The file(s) extracted from the SARC file is output to the same directory as the SARC file.
 ```
 
 Example:
 ``` js
-const Msbt2Json = require('msbt2json');
-new Msbt2Json().convert('/home/foo/bar.msbt');
+const msbt2json = require('msbt2json');
+msbt2json.convert('/home/foo/bar.msbt');
 // --> output "/home/foo/bar/baz.json"
 ```

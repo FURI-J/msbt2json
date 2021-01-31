@@ -1,6 +1,6 @@
 'use strict';
 
-const Msbt2Json = require('./index.js');
+const msbt2json = require('./index.js');
 
 const fs = require('fs');
 const path = require('path');
@@ -23,5 +23,5 @@ const readFiles = (dirPath, callback) => {
 };
 
 readFiles(process.argv[2], function(filePath) {
-  new Msbt2Json().convert(filePath);
+  msbt2json.convert(filePath);
 });

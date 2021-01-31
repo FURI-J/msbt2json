@@ -3,7 +3,7 @@
 /**
  * Msbt2Json Class.
  */
-module.exports = class Msbt2Json {
+class Msbt2Json {
   /**
    * convert MSBT file to json file.
    * @param {string} msbtFileName - The path of the file to convert.
@@ -133,3 +133,13 @@ module.exports = class Msbt2Json {
       this.buff.readUInt32BE(offset);
   }
 };
+
+/**
+ * convert MSBT file to json file.
+ * @param {string} msbtFileName - The path of the file to convert.
+ */
+function convert(msbtFileName) {
+  new Msbt2Json().convert(msbtFileName);
+}
+
+module.exports.convert = convert;
