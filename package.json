@@ -2,7 +2,7 @@
   "name": "msbt2json",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "conv": "node src/conv.js",
     "lint": "eslint src/index.js",
