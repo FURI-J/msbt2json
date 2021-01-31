@@ -6,7 +6,7 @@
 |  LBL1  |  Message labels  |  JSON Key  |
 |  TXT2  |  Message strings  |  JSON Value  |
 |  ATR1  |  Attributes  |  ***Do not convert***  |
-|  TSY1  |  Message strings  |  ***Do not convert***  |
+|  TSY1  |  Text style  |  ***Do not convert***  |
 
 ## Installation
 ``` sh
