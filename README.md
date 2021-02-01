@@ -18,12 +18,12 @@ npm i msbt2json
 ``` js
 const msbt2json = require('msbt2json');
 const jsonFilePath = msbt2json.convert('<MSBT file path>');
-// --> The file(s) extracted from the SARC file is output to the same directory as the SARC file.
+// --> The JSON file extracted from the MSBT file is output to the same directory as the MSBT file.
 ```
 
 Example:
 ``` js
 const msbt2json = require('msbt2json');
 const jsonFilePath = msbt2json.convert('/home/foo/bar.msbt');
-// --> output "/home/foo/bar/baz.json"
+// --> output "/home/foo/bar.json"
 ```
