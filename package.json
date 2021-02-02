@@ -1,7 +1,7 @@
 {
   "name": "msbt2json",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Convert MSBT file to JSON file.",
   "main": "src/index.js",
   "scripts": {
     "conv": "node src/conv.js",
@@ -20,9 +20,14 @@
   },
   "homepage": "https://github.com/FURI-J/msbt2json#readme",
   "devDependencies": {
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^7.2.0",
     "prettier": "^2.2.1"
-  }
+  },
+  "dependencies": {},
+  "keywords": [
+    "MSBT",
+    "Nintendo"
+  ]
 }
